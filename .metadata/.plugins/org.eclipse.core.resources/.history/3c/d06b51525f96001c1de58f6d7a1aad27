@@ -1,0 +1,29 @@
+package br.com.dio.desafio;
+
+import java.text.SimpleDateFormat;
+import java.time.LocalDate;
+
+import br.com.dio.desafio.dominio.Curso;
+import br.com.dio.desafio.dominio.Mentoria;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/aaaa");
+		
+		Curso curso = new Curso();
+		curso.setTitulo("Curso java");
+		curso.setDescricao("Descrição curso java");
+		curso.setCargaHoraria(8);
+		
+		
+		Mentoria mentoria = new Mentoria();
+		mentoria.setTitulo("Mentoria de java");
+		mentoria.setDescricao("descricao mentoria java");
+		mentoria.setData(LocalDate.now());
+
+
+	}
+
+}
