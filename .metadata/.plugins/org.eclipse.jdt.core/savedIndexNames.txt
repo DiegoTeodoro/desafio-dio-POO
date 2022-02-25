@@ -1,0 +1,3 @@
+INDEX VERSION 1.131+E:\cursos -digital-innovation\java\bootcamp-POO\.metadata\.plugins\org.eclipse.jdt.core
+2112246634.index
+1728670531.index
